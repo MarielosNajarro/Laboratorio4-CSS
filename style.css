@@ -1,0 +1,47 @@
+*{
+	font-style: Roboto, sans-serif;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+	background: red;
+}
+
+.texto{
+	color: grey;
+	text-align-last: left;
+}
+
+.imagen{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 50px;
+}
+
+.boton{
+	background: white;
+	border-style: solid;
+	color:#e67e22;
+	display: inline-block;
+	font-size: 1em;
+	margin: 20px;
+	padding: 11px 0px;
+	text-align:center;
+	width: 200px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+h2{
+	text-decoration: underline red;
+}
